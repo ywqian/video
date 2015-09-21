@@ -1,5 +1,6 @@
 package com.example.videotest;
 
+import android.R.integer;
 import android.graphics.Canvas;
 
 /**
@@ -14,6 +15,8 @@ public class Constants {
     public static int playPosition=-1;
     
     private static  Canvas canvas;
+    
+    private static final int TAG = 1;
 
     public static Canvas getCanvas() {
         return canvas;
