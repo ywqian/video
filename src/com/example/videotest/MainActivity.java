@@ -15,7 +15,7 @@ import android.widget.VideoView;
 
 
 public class MainActivity extends Activity implements MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener, MediaPlayer.OnPreparedListener, View.OnTouchListener {
-
+//-------------------------------------
 	private String test;
 	private String test2; // 测试
     /**
